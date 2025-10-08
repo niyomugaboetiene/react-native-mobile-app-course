@@ -1,4 +1,5 @@
 // * ScrollView allows you to scroll content vertically or horizontally
+// from is used to create new array 
 
 import { ScrollView, Text } from "react-native";
 export default function Scroll() {
