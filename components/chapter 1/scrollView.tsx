@@ -1,1 +1,12 @@
 // * ScrollView allows you to scroll content vertically or horizontally
+
+import { ScrollView, Text } from "react-native";
+export default function Scroll() {
+    <ScrollView
+        style={{ padding: 20}}
+    >
+       {Array.from({ length: 20}).map((_, i) => (
+        <Text key={i}>Item {i + 1}</Text>
+       ))}
+    </ScrollView>
+}
