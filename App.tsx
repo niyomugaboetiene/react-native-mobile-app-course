@@ -6,6 +6,7 @@ import { View, Text, StyleSheet } from "react-native";
 import { Texts } from "./components/chapter 1/text.tsx";
 import Images from "./components/chapter 1/image.tsx";
 import Scroll from "./components/chapter 1/scrollView.tsx";
+import TextInputs from "./components/chapter 1/textInput.tsx";
 
 export default function App() {
    return (
@@ -15,7 +16,8 @@ export default function App() {
       <Hello/> */}
       {/* <Texts /> */}
       {/* <Images /> */}
-      <Scroll />
+      {/* <Scroll /> */}
+      <TextInputs />
     </View>
    )
 }
