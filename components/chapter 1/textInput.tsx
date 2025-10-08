@@ -1,35 +1,21 @@
-import { TextInput, View, StyleSheet, Text } from "react-native";
-import React, { useState} from "react";
+import { TextInput, View, Text } from "react-native";
+import React, { useState } from "react";
+import "./global.css";
 
 export default function TextInputs() {
     const [name, setName] = useState("");
 
     return (
-        <View style={styles.container}>
+        <View className="bg-blue-500 p-2.5">
             <TextInput 
-               placeholder="Enter some thing ..." 
-               onChangeText={setName}
-               value={name}
-               style={styles.input}
-        />
-        <Text style={styles.text}>{name}</Text>
+                placeholder="Enter some thing ..." 
+                onChangeText={setName}
+                value={name}
+                className="outline-blue-500 w-25 p-2.5 bg-white rounded border border-gray-300"
+            />
+            <Text className="font-serif text-xs italic mt-2">
+                {name}
+            </Text>
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        backgroundColor: 'green',
-        padding: 10,
-    },
-    input: {
-        outlineColor: 'blue',
-        width: 100,
-        padding: 10
-    },
-    text: {
-        fontFamily: 'serif',
-        fontSize: 12,
-        fontStyle: 'italic'
-    }
-});
