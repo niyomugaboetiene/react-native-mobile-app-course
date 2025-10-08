@@ -12,7 +12,7 @@ export default function Scroll() {
        ))}
 
        {Array.from({ length: 50}).map((_, i) => (
-        <View key={i} style={{ height: 50, backgroundColor: randomColor() }}/>
+        <View key={i} style={{ height: 50, backgroundColor: 'blue' }} />
        ))}
     </ScrollView>
 )}
