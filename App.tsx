@@ -3,12 +3,14 @@ import React from "react";
 // styleSheet allows you to define css in js instead of css
 import { View, Text, StyleSheet } from "react-native";
 import Hello from "./components/view.tsx";
+import { Texts } from "./components/text.tsx";
 export default function App() {
    return (
     <View style={styles.container}>
       <Text style={styles.text}>Hello world</Text>
-      <Text style={styles.text}>My First Project</Text>
-      <Hello/>
+      {/* <Text style={styles.text}>My First Project</Text>
+      <Hello/> */}
+      <Texts />
     </View>
    )
 }
