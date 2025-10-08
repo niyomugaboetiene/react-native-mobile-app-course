@@ -2,13 +2,13 @@ import React from "react";
 // * View is like div in web is parent component, Text lets you define or add text in your code
 // styleSheet allows you to define css in js instead of css
 import { View, Text, StyleSheet } from "react-native";
-
 export default function App() {
-  return (
+   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello world from Etiene</Text>
+      <Text style={styles.text}>Hello world</Text>
+      <Text style={styles.text}>My First Project</Text>
     </View>
-  )
+   )
 }
 
 const styles = StyleSheet.create({
