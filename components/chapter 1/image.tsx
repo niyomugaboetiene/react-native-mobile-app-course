@@ -7,7 +7,7 @@ export default function Images() {
                   style={{ width: 100, height: 100 }}           
            />
            {/* on local image */}
-        <Image source={require('./')}/>
+        <Image source={require('../../assets/avataaars.jpg')} />
         </View>
  
     )
