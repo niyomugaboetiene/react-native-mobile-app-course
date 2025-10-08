@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 export function Texts() {
   return (
     <View>
-        <Text style={{ color: 'green', fontSize: '12px' }}>Hello React Native</Text>
+        <Text style={{ color: 'green', fontSize: 12}}>Hello React Native</Text>
     </View>
   )
 }
