@@ -17,7 +17,7 @@ export default function App() {
       {/* <Texts /> */}
       {/* <Images /> */}
       {/* <Scroll /> */}
-      <TextInputs />
+      {/* <TextInputs /> */}
     </View>
    )
 }
