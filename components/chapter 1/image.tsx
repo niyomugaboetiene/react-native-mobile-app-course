@@ -1,9 +1,14 @@
-import { Image } from "react-native";
-
+import { Image, View } from "react-native";
+// is used to display image on local or remote
 export default function Images() {
     return (
-      <Image source={{ uri: 'https://reactnative.dev/img/tiny_logo.png'}} 
-         style={{ width: 100, height: 100 }}           
-      />
+        <View>
+           <Image source={{ uri: 'https://reactnative.dev/img/tiny_logo.png'}} 
+                  style={{ width: 100, height: 100 }}           
+           />
+           {/* on local image */}
+        <Image/>
+        </View>
+ 
     )
 }
